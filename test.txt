@@ -1,0 +1,5 @@
+Examples of Secret Key Formats
+Random String (JWT/API): aBc1xYz7!kPq9@rS6#vT2 (Used for app authentication/tokens).
+1Password Format: A3-ABC123XYZ789 (Starts with version/identifier, unique to each account).
+Generic Symmetric Key: A long sequence of random bytes, often represented as a string or binary data.
+Example from Code/Configs: db_password=MySuperSecretPwd123 in a .env file. 
